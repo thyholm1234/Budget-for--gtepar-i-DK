@@ -1,0 +1,9 @@
+name: boligbudget
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - streamlit==1.38.0
+      - pandas==2.2.2
